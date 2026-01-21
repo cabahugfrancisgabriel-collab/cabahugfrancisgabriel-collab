@@ -580,7 +580,7 @@ button:focus-visible {
   color: rgb(255, 255, 255);
 } 
 .main-wrapper-contact{
-  background-image: url('contactBG.jpg');
+  background-image: url('/contactBG.jpg');
 }
 
 /* ================================================
