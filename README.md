@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # cabahugfrancisgabriel-collab.github.io
 =======
 ## Hi there 👋
@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
->>>>>>> fea22040ef77e14f429cc3492db2178e76d5f84d
+
