@@ -103,6 +103,7 @@
         <li>Assisted in firewall installation and configuration alongside senior technicians.</li>
         <li>Performed routine hardware maintenance and replaced faulty components such as RAM, drives, and power supplies.</li>
         <li>Maintained stability of branch-level network systems and end-user workstations.</li>
+        <li>Developed software solutions for internal business processes.</li>
       </ul>
     </div>
 
@@ -149,11 +150,13 @@
         <li>Kali Linux</li>
         <li>MySQL</li>
         <li>MSSQL</li>
+        <li>NodeJS</li>
         <li>Oracle</li>
         <li>Oracle Virtual Machine</li>
         <li>OpsRamp</li>
         <li>OWASP ZAP</li>
         <li>Postman</li>
+        <li>ReactJS Framework</li>
         <li>Splunk Cloud</li>
         <li>sqlmap</li>
         <li>Sophos</li>
