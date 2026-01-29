@@ -1,4 +1,4 @@
-(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))a(e);new MutationObserver(e=>{for(const i of e)if(i.type==="childList")for(const r of i.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&a(r)}).observe(document,{childList:!0,subtree:!0});function s(e){const i={};return e.integrity&&(i.integrity=e.integrity),e.referrerPolicy&&(i.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?i.credentials="include":e.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function a(e){if(e.ep)return;e.ep=!0;const i=s(e);fetch(e.href,i)}})();function o(){const n=document.querySelector("#navBar");n.innerHTML=`
+(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))a(e);new MutationObserver(e=>{for(const i of e)if(i.type==="childList")for(const n of i.addedNodes)n.tagName==="LINK"&&n.rel==="modulepreload"&&a(n)}).observe(document,{childList:!0,subtree:!0});function s(e){const i={};return e.integrity&&(i.integrity=e.integrity),e.referrerPolicy&&(i.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?i.credentials="include":e.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function a(e){if(e.ep)return;e.ep=!0;const i=s(e);fetch(e.href,i)}})();function o(){const r=document.querySelector("#navBar");r.innerHTML=`
     <nav class="navbar">
       <div class="navbar-left">
         <div class="navbar-logo">
@@ -13,7 +13,7 @@
       </div>
       <button class="nav-button">Get Started</button>
     </nav>
-  `;const t=document.querySelector(".navbar-logo a");t&&t.addEventListener("click",a=>{a.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})}),document.querySelectorAll(".navbar-menu a").forEach(a=>{a.addEventListener("click",e=>{e.preventDefault();const i=a.getAttribute("href").substring(1),r=document.getElementById(i);r&&r.scrollIntoView({behavior:"smooth",block:"start"})})})}function l(){const n=document.querySelector("#mainBody");n.innerHTML=`
+  `;const t=document.querySelector(".navbar-logo a");t&&t.addEventListener("click",a=>{a.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})}),document.querySelectorAll(".navbar-menu a").forEach(a=>{a.addEventListener("click",e=>{e.preventDefault();const i=a.getAttribute("href").substring(1),n=document.getElementById(i);n&&n.scrollIntoView({behavior:"smooth",block:"start"})})})}function l(){const r=document.querySelector("#mainBody");r.innerHTML=`
   <div class="main-wrapper">
     <!-- HOME SECTION -->
     <section id="home" class="hero">
@@ -26,7 +26,7 @@
       </div>
     </section>
   </div>
-  `}function c(){const n=document.querySelector("#mainBody"),t=document.createElement("div");t.className="sections-wrapper",t.innerHTML=`
+  `}function c(){const r=document.querySelector("#mainBody"),t=document.createElement("div");t.className="sections-wrapper",t.innerHTML=`
     <!-- ABOUT SECTION -->
     <div class="main-wrapper-about" >
     <section id="about" class="section">
@@ -185,10 +185,10 @@
 
       <h3>Character References</h3>
       <ul>
-        <li>CyTech Former Manager, Head Of Offensive Security: Raymond Felicidario Garcia, +639777778865</li>
-        <li>CyTech Former Senior Manager: John Vina Neijzen, +639673954283</li>
-        <li>CyTech Human Resource Associate: Maria Katrina Verendia, +639673393602</li>
-        <li>CyTech Former Cybersecurity Senior Manager: John Rafael Llena, johnllena7@gmail.com</li>
+        <li>CyTech Former Manager, Head Of Offensive Security: Raymond Felicidario Garcia</li>
+        <li>CyTech Former Senior Manager: John Vina Neijzen</li>
+        <li>CyTech Human Resource Associate: Maria Katrina Verendia</li>
+        <li>CyTech Former Cybersecurity Senior Manager: John Rafael Llena</li>
       </ul>
     </div>
   </div>
@@ -224,4 +224,4 @@
     </div>
     </div>
 </section>
-  `,n.appendChild(t)}o();l();c();
+  `,r.appendChild(t)}o();l();c();
