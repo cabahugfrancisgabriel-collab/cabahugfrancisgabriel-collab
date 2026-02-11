@@ -20,7 +20,7 @@
       <h1>Cybersecurity and IT Expertise</h1>
       <p>Web Developer | Security Operations | IT | Gamer</p>
       <div class="button-group">
-        <a href="#projects" class="cta-button">View My Work</a>
+        <a href="https://incomparable-douhua-67c14d.netlify.app/#home" target="_blank" rel="noopener noreferrer" class="cta-button">View My Work</a>
         <a href="#contact" class="cta-button">Contact</a>
         
       </div>
